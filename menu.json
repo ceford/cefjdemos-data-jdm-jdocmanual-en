@@ -1,0 +1,42 @@
+{
+    "introduction.md" : "Introduction",
+    "notes.md" : "Notes",
+    "installation" : {
+        "clone-jdm-repo.md" : "Clone the JDM Repo",
+        "install-jdocmanual.md" : "Install Jdocmanual",
+        "configure-languages.md" : "Configure Languages",
+        "build-a-manual.md" : "Build a Manual",
+        "smart-search.md" : "Smart Search",
+        "create-a-layout.md" : "Create a Layout"
+    },
+    "data-management" : {
+        "data-flow-options.md" : "Data Flow Options",
+        "data-entry-in-vscode.md" : "Data Entry in VSCode",
+        "data-entry-in-jdocmanual.md" : "Data Entry in Jdocmanual"
+    },
+    "reference" : {
+        "magazine-author-license.md" : "Magazine Author License"
+    },
+    "data-installation" : {
+        "file-system-layout.md" : "File System Layout",
+        "menu-control.md" : "Menu Control",
+        "markdown-files.md" : "Markdown Files",
+        "image-naming-conventions.md" : "Image Naming Convention"
+    },
+    "jdocmanual" : 
+    {
+        "introduction-to-jdocmanual.md" : "Introduction to Jdocmanual",
+        "jugl-2025-05-20.md" : "JUGL Presentation",
+        "installation-notes.md" : "Installation Notes",
+        "source-data.md" : "Source Data",
+        "how-to-contribute.md" : "How to Contribute",
+        "markdown.md" : "Markdown",
+        "edit-in-vscode.md" : "Edit with VSCode",
+        "edit-article-in-jdocmanual.md" : "Edit Article in Jdocmanual",
+        "new-article-in-jdocmanual.md" : "New Article in Jdocmanual",
+        "menu-items.md" : "Menu Items",
+        "proxy-server.md" : "Proxy Server",
+        "changelog.md" : "Changelog",
+        "translation-analysis.md" : "Translation Analysis"
+    }
+}
