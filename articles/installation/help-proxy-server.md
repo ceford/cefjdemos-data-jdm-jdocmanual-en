@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Proxy_Server",
-  "title": "Proxy Server ",
+  "title": "Help Proxy Server ",
   "description": "", 
   "author": ""
 }
@@ -29,7 +29,7 @@ sections of the source or the images.
 
 ## The Jdocmanual Proxy Server
 
-There is a similar proxy server available with Jdocmanual set up during installation of the Help manual.
+There is a similar proxy server available with Jdocmanual set up during installation of the Help manual. If you wish to use it you need to obtain the Jdocmanual Help manual from GitHub. It is available in English and several other languages.
 
 The proxy server is a simple php script (index.php) in a proxy subfolder of the installed site.
 Subfolders are created for each available language. The Help pages are stored as individual
@@ -41,7 +41,7 @@ to remove the domain part of the url. If Joomla is installed in a sub-folder mak
 subfolder name precedes /proxy. Example:
 
 ```
-public $helpurl = '/jdm3/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
+public $helpurl = '/jdm5/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
 ```
-At the moment the proxy delivers the same Help pages for Joomla 4 and Joomla 5. That may
+At the moment the proxy delivers the same Help pages for Joomla versions 5 and 6. That may
 change in the future.

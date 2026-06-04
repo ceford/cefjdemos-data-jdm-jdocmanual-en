@@ -9,7 +9,7 @@
 
 Jdocmanual is a Joomla component designed for the display of multi-lingual technical information. Source text is stored in Markdown format completely separate from the Joomla installation, which is used for content management and presentation. 
 
-Although designed initially for Joomla documentation Jdocmanual can be used for any documentation that requires a layout with a list of Contents to the left, a Content area in the centre and a list of content Headings to the right. This is the layout used by the Mozilla Developer Network (MDN), Bootstrap and many others.
+Although designed initially for Joomla documentation, Jdocmanual can be used for any documentation that requires a layout with a list of Contents to the left, a Content area in the centre and a list of content Headings to the right. This is the layout used by the Mozilla Developer Network (MDN), Bootstrap and many others.
 
 Large documentation sets may be divided into sections here termed Manuals. MDN has separate sections for HTML, JavaScript, CSS and more. Joomla has separate sections for Users, Developers and more.
 

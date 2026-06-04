@@ -7,6 +7,10 @@
 }
 -->
 
+## Version 5
+
+This is a redesign of the data structure to make Jdocmanual independent of Joomla documentation and default langugae.
+
 ## Version 4.0.0
 
 - The Manual data are now in separate repositories for each Manual and each

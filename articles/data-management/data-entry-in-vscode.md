@@ -39,4 +39,18 @@ In the left sidebar there is a Source Control icon. Try it! If you have not set 
 
 ![screenshot showing the source control column](../../../en/images/data-management/data-entry-in-vscode/02-vscode-source-control.png)
 
-Enter a Commit message and select the Commit button. You will be prompted to confirm 
+Enter a Commit message and select the Commit button. You will be prompted to confirm this action. On completion the left column will be empty until there are more changes to the source. It is considered good practice to commit little and often. For example, make a commit after creating a new article or updating an existing article.
+
+## Timeline and Translation
+
+A useful feature of VSCode is the Timeline at the bottom of the Explorer panel. This can show changes between repository commits. If you are translating the original English into German for example you can see what has changed since the last English commit and update the German translation accordingly.
+
+Here is an example showing the timeline for a German translation:
+
+![vscode timeline view](../../../en/images/data-management/data-entry-in-vscode/03-timeline-view.png)
+
+In this example the author copied the English text into a new German document and then began translation paragraph by paragraph.
+
+## Summary
+
+This is a very easy way for an individual to work with data sources. If a team is involved you need an upstream repository that can be cloned by others who may then create pull requests. Using VSCode or any other IDE is still a good way to do that.

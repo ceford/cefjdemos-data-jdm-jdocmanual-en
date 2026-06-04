@@ -1,10 +1,21 @@
 # Jdocmanual Data File
 
-This repo contains data for the Jdocmanual Documenter Manual in English
+This repository contains data for the Jdocmanual Manual in English
 
-cefjdemos-data-jdm-docs-en
+cefjdemos-data-jdm-jdm-en
 
-This is one of four Joomla related manuals available in a number of
-languages, although many articles await translation.
+This is one of a number of Joomla related manuals available in a number of languages.
 
-The image screenshots are generated using Playwright.
+## Configuration Values
+
+Jdocmanual configuration:
+
+- Markdown source: `/home/username/manuals/`
+
+Manual configuration:
+
+- Manual folder: jdm
+- Default language: en
+- Initial path: introduction
+
+Further information is available at the [Jdocmanual](https://jdocmanual.org/jdocmanual?article=jdm/introduction) demonstration site.

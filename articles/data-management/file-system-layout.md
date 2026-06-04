@@ -30,11 +30,15 @@ The following schematic diagram shows the essentials of a manual source using th
 jdm
     |---en
         |---articles
-            |---data-installation
+            |---data-management
+                |---article-file-structure.md
+                |---data-entry-in-jdocmanual.md
+                |---data-entry-in-vscode.md
+                |---data-flow-options.md
                 |---file-system-layout.md
                 |---image-naming-conventions.md
-                |---markdown-files.md
-                |---menu-control.md
+                |---menu-file-structure.md
+                |---user-groups-in-jdocmanual.md
             |---another-folder
                 |---another-file.md
             introduction.md
@@ -52,7 +56,7 @@ jdm
 
 In an IDE the folders and files will be listed in alphabet order as in this page in VSCode:
 
-![structure seen in vscode](../../../en/images/data-installation/file-system-layout/00-structure-seen-in-vscode.png)
+![structure seen in vscode](../../../en/images/data-installation/file-system-layout/01-structure-seen-in-vscode.png)
 
 The content structure of each article file is covered later in the article on Markdown.
 
@@ -62,9 +66,10 @@ The final menu order is controlled by the menu.json file with folder names comin
 
 Images are located in a separate tree from article markdown files. A translated article may then select the original image or a translated image, if it exists, just by changing the language code. Image links have the following syntax in the article markdown source:
 
-&#33;&#91;structure seen in vscode&#93;(../../../en/images/data-installation/file-system-layout/00-structure-seen-in-vscode.png)
+&#33;&#91;structure seen in vscode&#93;(../../../en/images/data-installation/file-system-layout/01-structure-seen-in-vscode.png)
 
 Hover over the link and VSCode will show a thumbnail of the image. Select Preview mode and VSCode will show the image full size within the rendered preview text.
 
-Images are converted to a set of responsive images in a picture tag in the final HTML output.
+## Image Sizes
 
+During the article build process, each original image leads to the creation of additional images at resolutions of 576, 768, 992 and 1200 pixels wide in png or jpg format, depending on the original, and webp format. The image links in the markdown files are replaced with picture tags that allow the browser to select the image most appropriate for its resolution and capabilities.

@@ -54,14 +54,14 @@ This is my procedure to update my version of the Joomla Programmers Documentatio
 Summary of data flow:
 
 - Pull the GitHub repository to the local clone on my development laptop.
-- Import my local docusaurus clone into local my jodcmanual master repository.
+- Import my local docusaurus clone into my local jdocmanual master repository.
 - Push my local master repository to the production site repository.
 
 ## Case 3: The Joomla Magazine
 
 Each month the [Magazine](https://magazine.joomla.org/) has several articles containing information of a tutorial nature. For several years I have kept a list of such articles in the [Wiki](https://docs.joomla.org/J4.x:Magazine_Articles). However, I found it increasingly difficult to remember where I had seen an article on any particular topic. Magazine articles are not published under the JEDL license so I cannot republish them in Jdocmanual without the permission of each author. However, I can include them as a manual to make them searchable and provide a link to the original article. And I can see the content on my local installation. I do that frequently to help answer questions in the Joomla Forums.
 
-To import selected articles from the Magazine I have a short PHP script that imports HTML and converts that to Markdown. I need to do quite a lot of editorial work on each article to ensure compliance with accessibility standards. I also provide a brief summary of the article content as the title are sometimes obscure.
+To import selected articles from the Magazine I have a short PHP script that imports HTML and converts that to Markdown. I need to do quite a lot of editorial work on each article to ensure compliance with accessibility standards. I also provide a brief summary of the article content as the titles are sometimes obscure.
 
 This is my procedure for adding Magazine articles to Jdocmanual after publication each month.
 

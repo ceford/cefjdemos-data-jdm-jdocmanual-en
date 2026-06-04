@@ -7,11 +7,13 @@
 }
 -->
 
-Jdocmanual works best in full page mode. The following instructions ... are a suggestion.
+Jdocmanual works best in full page mode, although mobile phone views work well too. The following instructions ... are a suggestion.
 
 ## Create a Child Template
 
 This is intended to simplify module management, which can become a chore on complex sites.
+
+### Part 1: Start with the Cassiopeia Template
 
 - Go to **System / Site Templates / Cassiopeia Details and Files**
 - Use the **Create Child Template** button in the Toolbar.
@@ -22,6 +24,9 @@ This is intended to simplify module management, which can become a chore on comp
 - At this stage you are still in the original Cassiopeia template.
 - Open the **index.php** file, select its contents and copy to the clipboard or to a temporary text file.
 - Close the **Templates: Customise (Cassiopeia)** form.
+
+### Part 2: Update the Child Template
+
 - Select the newly created child template: **Cassiopeia_jdocmanual Details and Files**.
 - Select the **New File** button.
   - At the top left, select (twice) the name of the new template: **/templates/cassiopeia_jdocmanual**
@@ -76,3 +81,9 @@ The original Cassiopeia template will have the new custom banner and its origina
 - Go to **System / Site Template Styles**
 - Select the **Cassiopeia - Default** style
 - In the **Advanced** tab set **Brand** to **No**
+
+## Site View
+
+Check that the site view suits your purpose and behaves as you expect.
+
+

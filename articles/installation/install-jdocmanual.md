@@ -7,9 +7,9 @@
 }
 -->
 
-The Jdocmanual component extension for Joomla is available from GitHub as a ZIP file. Go to the [Repo](https://github.com/ceford/cefjdemos-com-jdm) and select the green `Code` button and then the **Download ZIP** item. Save the download somewhere handy. 
+The Jdocmanual component extension for Joomla is available from GitHub as a ZIP file. Go to the [Repository](https://github.com/ceford/cefjdemos-com-jdm) and select the green `Code` button and then the **Download ZIP** item. Save the download somewhere handy. 
 
-There is a separate [Smart Search](https://github.com/ceford/cefjdemos-plg-finder-jdocmanual) plugin to download and install too.
+There are separate [Smart Search](https://github.com/ceford/cefjdemos-plg-finder-jdocmanual) and a [CLI](https://github.com/ceford/cefjdemos-plg-jdocmanualcli/archive/refs/heads/main.zip) plugins to download and install too.
 
 ## Installation
 
@@ -33,3 +33,8 @@ Select the **Options** button in the Toolbar to go to the configuration page:
 ## Smart Search
 
 The Smart Search plugin needs to be enabled!
+
+## The CLI Plugin
+
+Some build operations can be accomplished from the command line. They may be useful for building large manuals if the browser encounters time-out conditions.
+
