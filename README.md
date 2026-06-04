@@ -2,7 +2,7 @@
 
 This repository contains data for the Jdocmanual Manual in English
 
-cefjdemos-data-jdm-jdm-en
+cefjdemos-data-jdm-jdocmanual-en
 
 This is one of a number of Joomla related manuals available in a number of languages.
 

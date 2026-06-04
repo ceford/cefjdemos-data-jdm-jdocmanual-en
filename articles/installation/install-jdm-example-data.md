@@ -24,7 +24,7 @@ This stage of the installation is best accomplished in a terminal window:
 - cd ~
 - mkdir manuals
 - cd manuals
-- git clone https://github.com/ceford/cefjdemos-data-jdm-jdm-en.git (check this)
+- git clone https://github.com/ceford/cefjdemos-data-jdm-jdocmanual-en.git
 - mv repoLongName repoShortName
 
 The repoLongName is the same as the repository name on GitHub. It is not a good name for a manual. The repoShortName is something more convenient to appear in article links and throughout the Jdocmanual management of the repository data. In this case the repoShortName is **jdm**. You should end up with a file structure that looks like this:
