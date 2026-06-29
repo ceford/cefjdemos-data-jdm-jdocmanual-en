@@ -69,4 +69,4 @@ And this is a single article in a frontend view. It shows the use of categories,
 
 Scottish history has provided a wealth of material for popular entertainment. For example, the Battle of Stirling Bridge featured in *Braveheart*, a 1995 film starring Mel Gibson, and the Battle of Roslin (above), is near to Rosslyn Chapel, which is the setting for the final part of *The Da Vinci Code*, a 2006 film starring Tom Hanks based on the novel by Dan Brown. Lots of potential for Tags and Custom Fields!
 
-The screenshot of the articles list above shows that I have been testing the use of uninstallable sample data using Joomla 7.0.0-alpha1-dev. That is because I am looking to the future even though it is my birthday today and I am 80!
+The screenshot of the articles list above shows that I have been testing the use of uninstallable sample data using Joomla 7.0.0-alpha1-dev. That is because I am looking to the future even though I am 80 today!
