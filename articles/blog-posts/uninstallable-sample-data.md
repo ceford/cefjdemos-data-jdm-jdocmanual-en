@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://jdocmanual.org/jdocmnual?article=jdm/blog-posts/uninstallable-sample-data",
-  "title": "Uninstallable Sample data",
+  "title": "Uninstallable Sample Data",
   "description": "Work in progress on creation of Joomla sample data that can be installed and uninstalled for tutorial purposes.", 
   "author": "Clifford E Ford"
 }
