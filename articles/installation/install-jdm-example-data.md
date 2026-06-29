@@ -47,3 +47,4 @@ The repoLongName is the same as the repository name on GitHub. It is not a good 
 Any translation will have an almost identical structure under its own language code (de, fr and so on).
 
 You do not have to use Git! You can download the data as a zip file and unzip it in the correct location.
+

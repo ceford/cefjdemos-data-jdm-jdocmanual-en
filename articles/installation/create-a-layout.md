@@ -18,7 +18,7 @@ This is intended to simplify module management, which can become a chore on comp
 - Go to **System / Site Templates / Cassiopeia Details and Files**
 - Use the **Create Child Template** button in the Toolbar.
 - In the **Child Template** dialog:
-  - Enter a child template name, for example **Cassiopeia_jdocmanual**
+  - Enter a child template name, for example **Jdocmanual**
   - Select Additional Template Styles: **Cassiopeia Default**
   - Select **Create Child Template**
 - At this stage you are still in the original Cassiopeia template.
@@ -40,6 +40,13 @@ This is intended to simplify module management, which can become a chore on comp
 - There may be others to delete later.
 - **Save & Close**
 
+## Part 3 Remove the Brand
+
+- Open the **Site Templates** page.
+- Select the **Cassiopeia_jdocmanual** item.
+- In the **Advanced** tab set **brand** to **No**.
+- **Save & Close**
+
 ## Create a Menu Item
 
 A default Joomla installation has a Main Menu located in the right side bar. Its **Home** page is a **Featured Articles** blog layout but as there are no articles, featured or otherwise, the Home page is empty apart from the Main Menu and Login modules in the right sidebar.
@@ -49,6 +56,7 @@ Create a menu item as follows:
 - Go to **Menus / Main Menu** and select the **New** button from the Toolbar.
 - Enter the title **Jdocmanual** (the alias must be jdocmanual).
 - For the **Menu Item Type** select **Jdocmanual**.
+- For the **Template Style** select **Cassiopeia_jdocmanual, copy of Cassiopeia - Default**.
 
 ## Create a Custom Module
 
@@ -67,10 +75,11 @@ The top of the page often has a banner but Jdocmanual works best with a Search f
   ```
 - In the **Advanced** tab set the **Module Class** to **flex-grow-1** and the **Module Style** to **noCard**.
 
-## Add a Search Form
+## Add a Smart Search Module
 
 - Set the **Title** field to **Search Form**
 - Set the **Title** button to **Hide**
+- Set the **Search Field Label** to **Hide**
 - Set the **Position** to **below-top**
 - In the **Advanced** tab set the **Module Style** to **noCard**
 

@@ -11,7 +11,7 @@ Go to the Jdocmanual **Manuals** page. This is the page most used for managing m
 
 ## The Manual Edit Form
 
-![screenshot of a manual edit page](../../../en/images/installation/create-a-manual/00-manual-edit.png)
+![screenshot of a manual edit page](../../../en/images/installation/build-a-manual/00-manual-edit.png)
 
 - **Manual Folder:** This must be the same as the folder in which you installed the repository data. It is used in URL paths so should be short and simple.
 - **Default Language:** This is used on first visit to this manual or on a revisit after cookie expiration. Subsequent visits use a cookie to keep track of the last page visited.
@@ -23,7 +23,7 @@ On **Save & Close** your Manuals page should now have a list containing at least
 
 The following screenshot shows a list of three manuals to help explain its features.
 
-![Screenshot of manuals page](../../../en/images/installation/create-a-manual/01-manuals-list.png)
+![Screenshot of manuals page](../../../en/images/installation/build-a-manual/01-manuals-list.png)
 
 To build a manual for the first time:
 
@@ -44,3 +44,4 @@ Building a manual involves the following steps:
 Some manuals consist of several hundred articles, many with several images. So building a complete manual can be time consuming. It may take many minutes for each language. Subsequently, only new or changed articles or articles with changed images are rebuilt. So the rebuild process is much quicker. That is where the **Time Back** setting is used. It is the number of minutes to look back for changed articles or images.
 
 The Build Articles stage is always followed by the Build Menus stage, which is quite fast.
+
