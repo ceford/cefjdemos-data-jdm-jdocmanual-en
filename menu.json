@@ -27,7 +27,7 @@
     },
     "blog-posts" : 
     {
-        "uninstallable-sample-data.md": "Uninstallable Sample Data",
+        "removable-sample-data.md": "Removable Sample Data",
         "jugl-2025-05-20.md" : "JUGL Presentation"
     }
 }

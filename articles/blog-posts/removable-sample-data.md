@@ -1,13 +1,13 @@
 <!--
 {
-  "source": "https://jdocmanual.org/jdocmnual?article=jdm/blog-posts/uninstallable-sample-data",
-  "title": "Uninstallable Sample Data",
+  "source": "https://jdocmanual.org/jdocmnual?article=jdm/blog-posts/removable-sample-data",
+  "title": "Removable Sample Data",
   "description": "Work in progress on creation of Joomla sample data that can be installed and uninstalled for tutorial purposes.", 
   "author": "Clifford E Ford"
 }
 -->
 
-Joomla sample data is useful for a variety of purposes such as testing, feature illustration and preparation of tutorials. The Joomla core sample data sets available are fine for some purposes, but not all, and they are not designed to be uninstalled when no longer required. This article describes my personal approach to creation of uninstallable sample data. Two extensions are required: a plugin and a module. 
+Joomla sample data is useful for a variety of purposes such as testing, feature illustration and preparation of tutorials. The Joomla core sample data sets available are fine for some purposes, but not all, and they are not designed to be uninstalled when no longer required. This article describes my personal approach to creation of removable sample data. Two extensions are required: a plugin and a module. 
 
 ## The Sample data
 
@@ -25,7 +25,7 @@ The code for the plugin is available from [GitHub](https://github.com/ceford/cef
 
 The following screenshot shows part of the plugin structure as seen in VSCode:
 
-![screenshot showing the plugin structure in vscode](../../../en/images/blog-posts/uninstallable-sample-data/01-plugin-structure-in-vscode.png)
+![screenshot showing the plugin structure in vscode](../../../en/images/blog-posts/removable-sample-data/01-plugin-structure-in-vscode.png)
 
 - The *en-gb* folder contains the sample data in British English. The *gd-gb* folder contains the same folder and file names but the translatable content is in Scottish Gaelic. 
 - Within a language folder, the *articles* folder contains the html files of the required articles. 
@@ -37,7 +37,7 @@ The screenshot shows part of the specifications for the list of articles. Each a
 
 After installation the plugin needs to be enabled and configured for languages. The following screenshot shows the configuration screen **after** installation of sample data. Before installation of sample data, and after uninstallation, all fields are empty, except for the *Languages* specification.
 
-![screenshot showing the plugin configuration](../../../en/images/blog-posts/uninstallable-sample-data/02-plugin-configuration.png)
+![screenshot showing the plugin configuration](../../../en/images/blog-posts/removable-sample-data/02-plugin-configuration.png)
 
 For each of the fields the numbers are mostly the *ID* numbers of the installed sample data items. The empty fields are for future additions.
 
@@ -51,7 +51,7 @@ There is one unusual feature I found necessary: a check whether a step has alrea
 
 The plugin will not work without the [Demodata Module](https://github.com/ceford/cefjdemos-mod-demodata)! It contains the JavaScript required to implement each step in the sample data install or uninstall process. After installation the module needs to be assigned to the cPanel position where it will appear in the *Home Dashboard*.
 
-![screenshot showing the demodata module](../../../en/images/blog-posts/uninstallable-sample-data/03-demodata-module.png)
+![screenshot showing the demodata module](../../../en/images/blog-posts/removable-sample-data/03-demodata-module.png)
 
 ## Sample Data Installation
 
@@ -59,14 +59,16 @@ In a clean, new Joomla 6 site there are no articles, categories other than uncat
 
 The following screenshot shows the articles list. By default the list is in descending order of ID and as the articles in Gaelic were installed last they are at the top of the list. Note that I normally set the list limit to 5 items for screenshot purposes.
 
-![sample data articles list](../../../en/images/blog-posts/uninstallable-sample-data/04-articles-list.png)
+![sample data articles list](../../../en/images/blog-posts/removable-sample-data/04-articles-list.png)
 
 And this is a single article in a frontend view. It shows the use of categories, fields, menus and banners.
 
-![article on the battle of roslin](../../../en/images/blog-posts/uninstallable-sample-data/05-battle-of-roslin.png)
+![article on the battle of roslin](../../../en/images/blog-posts/removable-sample-data/05-battle-of-roslin.png)
 
-## Afterthoughts
+## Conclusions
+
+The screenshot of the articles list above shows that I have been testing the use of removable sample data using Joomla 7.0.0-alpha1-dev. That is because I am looking to the future even though I am 80 today!
 
 Scottish history has provided a wealth of material for popular entertainment. For example, the Battle of Stirling Bridge featured in *Braveheart*, a 1995 film starring Mel Gibson, and the Battle of Roslin (above), is near to Rosslyn Chapel, which is the setting for the final part of *The Da Vinci Code*, a 2006 film starring Tom Hanks based on the novel by Dan Brown. Lots of potential for Tags and Custom Fields!
 
-The screenshot of the articles list above shows that I have been testing the use of uninstallable sample data using Joomla 7.0.0-alpha1-dev. That is because I am looking to the future even though I am 80 today!
+I have other things to do for a while. Please feel free to try out the code or come up with more universal subject matter.
