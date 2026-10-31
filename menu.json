@@ -27,6 +27,7 @@
     },
     "blog-posts" : 
     {
+        "multilingual-documentation.md": "Multilingual Documentation",
         "removable-sample-data.md": "Removable Sample Data",
         "jugl-2025-05-20.md" : "JUGL Presentation"
     }

@@ -15,7 +15,7 @@ Just over a year ago Brian Teeman put forward a [Proposal: Inclusion of a Full I
 
 My requirement is for subject matter to use for Tutorials and Help pages. It must be multi-lingual and it must be user creatable! For development purposes I opted to use information on Scottish Battlefields with Scottish Gaelic in addition to English. This might seem a strange choice. But the data is restricted to a period of history from 1296 (The Battle of Dunbar I) to 1746 (The Battle of Culloden) with plenty of open source information available. I have visited many of the battlefields and some are near to my home. The use of Gaelic was inspired by a visit to Carnasserie Castle where the very first document printed in Gaelic was produced in 1567. I needed to create a [Language Pack for Scottish Gaelic](https://github.com/ceford/cefjdemos-pkg-gd-gb) but that is another story. I do not speak, read or know a single word of Gaelic!
 
-The important point is that the subject matter can be replaced with anything you like without needing to change the code. However, at the time of writing, my approach is functional but an unfinished *Work in Progress*.
+The important point is that the subject matter can be replaced with anything you like without needing to change the code. At the time of writing, the code described here is functional but an unfinished *Work in Progress*.
 
 ## The Plugin
 
@@ -67,8 +67,8 @@ And this is a single article in a frontend view. It shows the use of categories,
 
 ## Conclusions
 
-The screenshot of the articles list above shows that I have been testing the use of removable sample data using Joomla 7.0.0-alpha1-dev. That is because I am looking to the future even though I am 80 today!
-
 Scottish history has provided a wealth of material for popular entertainment. For example, the Battle of Stirling Bridge featured in *Braveheart*, a 1995 film starring Mel Gibson, and the Battle of Roslin (above), is near to Rosslyn Chapel, which is the setting for the final part of *The Da Vinci Code*, a 2006 film starring Tom Hanks based on the novel by Dan Brown. Lots of potential for Tags and Custom Fields!
+
+The screenshot of the articles list above shows that I have been testing the use of removable sample data using Joomla 7.0.0-alpha1-dev. That is because I am looking to the future even though I am 80 today!
 
 I have other things to do for a while. Please feel free to try out the code or come up with more universal subject matter.
