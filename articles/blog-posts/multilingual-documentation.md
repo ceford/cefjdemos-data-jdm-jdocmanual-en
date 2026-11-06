@@ -135,3 +135,4 @@ If you would like to see multilingual documentation in action you can do so in t
 - Go to the same page in the [Guide](https://guide.joomla.org/user-guide/getting-started/getting-started-introduction-to-joomla) and try it there too. 
 
 Note that Persian Farsi is a right-to-left language!
+
