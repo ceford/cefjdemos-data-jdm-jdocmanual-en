@@ -9,9 +9,9 @@
 
 > Does anyone here speak English? This line is spoken by the character Marcus Brody (played by Denholm Elliott) in the 1989 adventure film Indiana Jones and the Last Crusade.
 
-A silly question for an English language magazine! However, it comes up every day when English speakers venture abroad and find themselves in town centres where all of the signs are in a strange script and none of the residents understand English. So I ask you to imagine yourself as a Joomla user who does not speak or understand a word of English. The multilingual interface is great but the documentation is not much help. So it is my ambition to provide documentation in all of the languages that Joomla supports and perhaps some more. 
+A silly question for an English language magazine! However, it comes up every day when English speakers venture abroad and find themselves in town centres where all of the signs are in a strange script and none of the residents understand English. So I ask you to imagine yourself as a Joomla user who does not speak or understand a word of English. The multilingual interface is great but the documentation is not much help. So for some time it has been my ambition to provide documentation in all of the languages that Joomla supports and perhaps some more. 
 
-There are three parts to this ambition:
+From my point of view there are three parts to this ambition:
 
   1. Multilingual Demonstration Data.
   2. Multilingual Screenshots.
@@ -68,13 +68,15 @@ I also maintain source templates where those key-value pairs are used. Again a b
     }
 }
 ```
-Two short PHP scripts are required. The first uses Openai to obtain translations of the `en-gb.ini` file and each of the html article files. The second processes the source templates to output the data used in the demonstration data plugin. 
+Article text is stored separately in html files. Two short PHP scripts are required. The first uses Openai to obtain translations of the `en-gb.ini` file and each of the html article files. The second processes the source templates to output the translated data used in the demonstration data plugin. 
 
-It takes just a few minutes to generate the demonstration data in a new language. However, for the moment I have used only 9 languages as I first want to integrate the data sets with tutorials and their screenshots. Here is another example screenshot in Tamil:
+It takes just a few minutes to generate the demonstration data in a new language. However, for the moment I have used only 12 languages as I first needed to integrate the data sets with tutorials and their screenshots. Here is another example screenshot in Tamil:
 
 ![Featured sites blog layout in Tamil](../../../en/images/blog-posts/multilingual-documentation/featured-sites-ta.png)
 
 Data for several languages may be installed simultaneously and there is no limit to the number of times the data can be removed and reinstalled. Installation takes just a few seconds. 
+
+There is a demonstration of the use of the *Heritage* demonstration data in an item in the new [Joomla Playground](https://joomla-projects.github.io/joomla-playground/?blueprint=heritage-demo).
 
 ## Multilingual Screenshots
 
@@ -111,17 +113,15 @@ The output is screenshots placed exactly where needed in the translated document
 
 This automated approach allows screenshots to be replaced relatively quickly. For example, should Joomla&nbsp;7 appear with new frontend and backend templates I can regenerate the screenshots with those new templates in an hour or so per language.
 
+Screenshots in the appropriate document language have recently appeared in the *Guide*. You can see them in the [Introduction to Joomla](https://guide.joomla.org/user-guide/getting-started/getting-started-introduction-to-joomla) page. This link shows the English page with the old screenshots. Select each language in turn to see the screenshots in the same language as the text using the new demonstration data.
+
 ## Multilingual Delivery
 
-Content delivery carries some logistic problems. The Help and User tutorial images in English use about 400Mb of disk space. The responsive images generated for production for the 9 currently used languages occupy 4.4G of disk space. Multiply that by 5 or more for all of the languages supported by Joomla!
+Content delivery carries some logistic problems. The Help and User tutorial images in English use about 400Mb of disk space. The responsive images generated for production for the 9 languages currently used in Jdocmanual occupy 4.4G of disk space. Multiply that by 5 or more for all of the languages supported by Joomla!
 
-[Jdocmanual](https://jdocmanual.org) handles all of this adequately and is the *de facto* proving ground for integration of multilingual text and images. However, it will not be used for delivery. Here is an example of a Jdocmanual article in Brazilian Portuguese:
+[Jdocmanual](https://jdocmanual.org) handles all of this adequately and was the proving ground for integration of multilingual text and images. However, it will not be used for delivery. I expect the images and text in multiple languages may be imported from Jdocmanual into the [Guide](https://guide.joomla.org) where new translation methods with human translator feedback will be used.
 
-![Screenshot of Jdocmanual getting started page](../../../en/images/blog-posts/multilingual-documentation/jdocmanual.png)
-
-I expect that the images and text in multiple languages may be imported from Jdocmanual into the [Guide](https://guide.joomla.org) as that is how much of the current content of the Guide was initiated. Which brings me to a problem for which I have no immediate solution: ongoing maintenance.
-
-The now deprecated Wiki documentation had provision to use Help screens tied to each Joomla version. Although that worked well enough, it required the translation process to start again. By the time Joomla&nbsp;6 came along we decided to abandon that and simply aliased Joomla&nbsp;6 Help pages to Joomla&nbsp;5 Help pages. And translation was haphazard, with many documents having only headings or one or two paragraphs translated. Hence the advent of automated translation by AI in Jdocmanual.
+There are some unsolved problems! The now deprecated Wiki documentation had provision to use Help screens tied to each Joomla version. Although that worked well enough, it required the translation process to start again. By the time Joomla&nbsp;6 came along we decided to abandon that and simply aliased Joomla&nbsp;6 Help pages to Joomla&nbsp;5 Help pages. And translation was haphazard, with many documents having only headings or one or two paragraphs translated. Hence the advent of automated translation by AI.
 
 It is possible to generate static HTML pages for the Help pages for each major version of Joomla! However, I doubt there will be any attempt to maintain anything other than the pages for the current release. The same is not so obvious for User tutorial pages!
 
@@ -129,4 +129,9 @@ Just where to go from here is up to the Documentation Team!
 
 ## Conclusion
 
-If you would like to see multilingual documentation in action go to the [Jdocmanual *Introduction to Joomla*](https://jdocmanual.org/en/jdocmanual?article=user/getting-started/introduction-to-joomla) page and select each available language in turn using the *Page Language* selector at the top right of the page. Notice that the screenshots are in the same language as the the text.
+If you would like to see multilingual documentation in action you can do so in two places:
+
+- Go to the [Jdocmanual *Introduction to Joomla*](https://jdocmanual.org/en/jdocmanual?article=user/getting-started/introduction-to-joomla) page and select each available language in turn using the *Page Language* selector at the top right of the page. Notice that the screenshots are in the same language as the text and the English version uses the Heritage dataset.
+- Go to the same page in the [Guide](https://guide.joomla.org/user-guide/getting-started/getting-started-introduction-to-joomla) and try it there too. 
+
+Note that Persian Farsi is a right-to-left language!
